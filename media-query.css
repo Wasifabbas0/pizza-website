@@ -1,0 +1,231 @@
+@media (max-width:768px){
+    nav img{
+        width: 8%;
+    }
+    nav ul li{
+        font-size: 2vw;
+    }
+    .content{
+        margin-top: 12vw;
+    }
+    .content h1{
+        font-size: 7vw;
+    }
+    .content p{
+        font-size: 2vw;
+        width: 40%;
+        padding: 2.5vw 0 4vw 0;
+    }
+    .content button{
+        font-size: 1.5vw;
+        padding: 1.5vw 8vw;
+        border: none;
+    }
+    .mini-circle{
+        display: none;
+    }
+}
+@media (max-width:480px){
+    header{
+        background-size: auto;
+        background-position:right top;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10vw 7vw;
+        position: relative;
+    }
+    nav i{
+        display: block;
+        font-size: 8vw;
+        float: right;
+    }
+    nav img{
+        width: 20%;
+    }
+    nav ul{
+        display: none;
+    }
+    .content{
+        margin-top: 20vw;
+    }
+    .content h1{
+        font-size: 15vw;
+    }
+    .content p{
+        font-size: 4.5vw;
+        width: 90%;
+        color: #fff;
+        padding: 15px 0 30px 0;
+    }
+    .content button{
+        font-size: 4vw;
+        padding: 3vw 10vw;
+    }
+    .menu{
+        background-position:center right;
+    }
+    .menu article{
+        padding-top: 40px;
+    }
+    .menu article h1{
+        font-size: 12vw;
+    }
+    .menu article p{
+        font-size: 3.5vw;
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .menu figure{
+        flex-direction: column;
+        gap: 5.5vw;
+    }
+    .menu-image img{
+        width: 40%;
+    }
+    .menu-image h2{
+        font-size: 5vw;
+        padding: 1vw 0 2vw 0;
+    }
+    .menu-image p{
+        font-size: 2.2vw;
+    }
+    .delivery{
+        background-position: calc(20%);
+        justify-content: center;
+    }
+    .delivery article{
+        width: 100%;
+        text-align: center;
+    }
+    .delivery article h1{
+        font-size: 12vw;
+    }
+    .delivery article p{
+        font-size: 5vw;
+        width: 90%;
+        margin: 0 auto;
+        line-height: 1.1;
+        padding: 7vw 0 8vw 0;
+    }
+    .delivery article button{
+        font-size: 4vw;
+        padding: 3vw 10vw;
+    }
+    .statistics article h1{
+        font-size: 12vw;
+    }   
+    .statistics article p{
+        font-size: 3.5vw;
+        width: 90%;
+        padding: 6vw 0 15vw 0;
+    }
+    .cirlce-container{
+        flex-direction: column;
+        gap: 6w;
+    } 
+    .cirlce-container .circle{
+        width: 120px;
+        height: 120px;
+        border: 3px solid #fff;
+    }
+    .cirlce-container .circle h2{
+        font-size: 7vw;
+    }    
+    .discount{
+        background-position: calc(80%);
+    }
+    .discount article h1{
+        font-size: 12vw;
+    }
+    .discount article p{
+        font-size: 5vw;
+        width: 90%;
+        line-height: 1;
+        padding: 7vw 0 8vw 0;
+    }
+    .discount article button{
+        font-size: 4vw;
+        padding: 3vw 10vw;
+    }
+    .addie{
+        background-position: center right;
+    }
+    .addie article p{
+        font-size: 4vw;
+        width: 90%;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+    .addie article h1{
+        font-size: 7vw;
+    } 
+    .subscribe{
+        background-position: center right;
+        display: flex;
+        align-items: center;
+    }
+    .subscribe article h1{
+       font-size: 12vw;
+    }
+    .subscribe article p{
+        font-size: 4vw;
+        width: 95%;
+        padding: 4vw 0 6vw 0;
+    }
+    .subscribe article input{
+        padding: 1.5vw 8vw 1.5vw 3vw;
+        border-radius: 4vw;
+    }
+    footer{
+        display: block;
+
+    }
+    .footer-content{
+        align-items: center;
+        flex-direction: column;
+        gap: 10vw;
+        text-align: center;
+    }
+    .social-media{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-top: 20vw;
+    }
+    .social-media h2{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+    .social-media p{
+        font-size: 3vw;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .social-media-links img{
+        width: 5vw;
+    }
+    .about h2{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+    .about ul li{
+        font-size: 3vw;
+    }
+    .services h2{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+    .services ul li{
+        font-size: 3vw;
+    }
+    .other h2{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+    .other ul li{
+        font-size: 3vw;
+    }
+}    
